@@ -84,10 +84,13 @@ public class SuratKeluar extends Surat {
         this.penerima = penerima;
     }
     
-    public void tampilkanSuratKeluar () {
+    @Override
+    public void tampilkanDaftarSurat() {
         System.out.println("==========================");
         System.out.println("DAFTAR SURAT KELUAR");
+
         super.tampilkanDaftarSurat();
+
         System.out.println("Kategori Surat: " + getKategoriSurat());
         System.out.println("Tanggal Surat Keluar: " + tanggalKeluarSurat);
         System.out.println("Penerima: " + penerima);

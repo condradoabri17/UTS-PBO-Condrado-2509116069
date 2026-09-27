@@ -68,7 +68,7 @@ public class ArsipSuratAsmaul {
                 } else {
                     for (int i = 0; i < daftarSuratMasuk.size(); i++) {
                         System.out.println("\nData Surat ke-" + (i + 1));
-                        daftarSuratMasuk.get(i).tampilkanSuratMasuk();
+                        daftarSuratMasuk.get(i).tampilkanDaftarSurat();
                     }
                 }
             }  
@@ -178,7 +178,7 @@ public class ArsipSuratAsmaul {
             if (pilihanKeluar == 1) {
                 for (int i = 0; i < daftarSuratKeluar.size(); i++) {
                     System.out.println("\nData Surat ke-" + (i + 1));
-                    daftarSuratKeluar.get(i).tampilkanSuratKeluar();
+                    daftarSuratKeluar.get(i).tampilkanDaftarSurat();
                 }
             } else if (pilihanKeluar == 2) {
                 tambahSuratKeluar();
